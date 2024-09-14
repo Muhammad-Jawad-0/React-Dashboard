@@ -8,38 +8,39 @@ import {
   BiTask,
   BiHelpCircle
 } from "react-icons/bi";
+import "../styles/Sidebar.css"
 
 const Sidebar = () => {
   return (
     <div className="menu">
       <div className="logo">
-        <BiBookAlt />
+        <BiBookAlt className="logo-icon" />
         <h2>EduFlex</h2>
       </div>
 
       <div className="menu-list">
         <a href="#" className="item">
-          <BiHome />
+          <BiHome className="icon" />
           Dashboard
         </a>
         <a href="#" className="item">
-          <BiTask />
+          <BiTask className="icon" />
           Assignment
         </a>
         <a href="#" className="item">
-          <BiSolidReport />
+          <BiSolidReport className="icon" />
           Report
         </a>
         <a href="#" className="item">
-          <BiStats />
+          <BiStats className="icon" />
           Stats
         </a>
         <a href="#" className="item">
-          <BiMessage />
+          <BiMessage className="icon" />
           Message
         </a>
         <a href="#" className="item">
-          <BiHelpCircle />
+          <BiHelpCircle className="icon" />
           Help
         </a>
       </div>
