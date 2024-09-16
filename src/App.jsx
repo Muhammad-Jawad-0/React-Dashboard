@@ -7,14 +7,14 @@ import "./App.css"
 
 const App = () => {
   return (
-    // <div className='dashboard'>
-    //   <Sidebar />
-    //   <div className="dashboard-content">
-    //     <Content />
-    //     <Profile />
-    //   </div>
-    // </div>
-    <Todos />
+    <div className='dashboard'>
+      <Sidebar />
+      <div className="dashboard-content">
+        <Content />
+        <Profile />
+      </div>
+    </div>
+    // <Todos />
   )
 }
 
