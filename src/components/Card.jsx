@@ -22,12 +22,11 @@ const Card = () => {
   return (
     <div className='card-container'>
       {course.map((v,i) => (
-        <div className='card'>
+        <div className='card' key={i}>
             <div className="card-cover">
                 {v.icon}
             </div>
             <div className="card-title">
-                bolo
                 <h2>{v.title}</h2>
             </div>
         </div>
